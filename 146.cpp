@@ -10,6 +10,6 @@ int main()
 		if (s == "#")break;
 		if (next_permutation(s.begin(), s.end())) cout << s << endl;
 		else cout << "No Successor" << endl;
-
 	}
+	return 0;
 }
